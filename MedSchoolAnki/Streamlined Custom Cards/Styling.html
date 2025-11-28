@@ -1,0 +1,64 @@
+.card {
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+.cloze {
+		font-weight: bold;
+    color: lightblue;
+}
+.nightMode .cloze {
+    color: lightblue;
+}
+.NoteStyle {
+    font-family: arial;
+    font-size: 26px;
+    text-align: center;
+    color: lightgreen;
+}
+
+hr.double {
+ border-top: 3px double;
+ border-bottom: none;
+}
+
+hr.gradient {
+  height: 5px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(
+    90deg,
+    rgba(13, 8, 96, 1) 0%,
+    rgba(9, 9, 121, 1) 21%,
+    rgba(6, 84, 170, 1) 51%,
+    rgba(0, 255, 113, 1) 100%
+  );
+}
+
+details {
+	text-align: center;
+	margin: 10px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+details > summary {
+	font-family: arial black;
+	font-size: 16px;
+	color: lightgrey;
+	width: fit-content;
+	margin: auto; <!-- "margin: auto;" is MANDATORY to center-align the drop-down buttons!!! -->
+	border-radius: 6px;
+	padding: 1px 5px;
+  cursor: pointer;
+	background-color: black;
+	box-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+details > p {
+	font-size: 24px;
+}
